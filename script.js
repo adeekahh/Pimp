@@ -1,4 +1,4 @@
-/*SLIDESHOW*/
+/*SLIDESHOW
 //selectors
 //firstsemester
 var FirstSemesterPage = document.querySelector(".first-semester-page");
@@ -19,7 +19,7 @@ var FourthSemesterSlide = document.querySelector(".fourth-semester");
 //firstsemester
 var FaqPage = document.querySelector(".faq-page");
 var FaqSlide = document.querySelector(".faq");
-
+*/
 //modal
 
 
@@ -38,7 +38,6 @@ function closeModalOne(){
 
 document.querySelector(".box-one-modal").addEventListener("click", closeModalOne);
 document.querySelector(".box-one").addEventListener("click", openModalOne);
-
 
 /*SECOND MODAL*/
 
@@ -138,15 +137,13 @@ document.querySelector(".box-six").addEventListener("click", openModalSix);
 
 
 
-
+/*SLIDESHOW
 var slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
-/*SLIDESHOW*/
 
 function showSlides(n) {
 
@@ -165,7 +162,6 @@ function showSlides(n) {
 
 
 }
-
 
 /*PAGES*/
 
@@ -253,5 +249,3 @@ if(FirstSemesterSlide.style.display == "block"){
 
 
 /*MODAL*/
-
-

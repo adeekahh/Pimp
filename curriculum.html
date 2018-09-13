@@ -69,7 +69,51 @@
 <!--
 1. Add individual class names for modal
 -->
+<script type="text/javascript">
+/*SLIDESHOW*/
+//selectors
+//firstsemester
+var FirstSemesterPage = document.querySelector(".first-semester-page");
+var FirstSemesterSlide = document.querySelector(".first-semester");
 
-<script src="script.js"></script>
+//secondsemester
+var SecondSemesterPage = document.querySelector(".second-semester-page");
+var SecondSemesterSlide = document.querySelector(".second-semester");
+
+//thirdsemester
+var ThirdSemesterPage = document.querySelector(".third-semester-page");
+var ThirdSemesterSlide = document.querySelector(".third-semester");
+
+//fourthsemester
+var FourthSemesterPage = document.querySelector(".fourth-semester-page");
+var FourthSemesterSlide = document.querySelector(".fourth-semester");
+
+//faq
+var FaqPage = document.querySelector(".faq-page");
+var FaqSlide = document.querySelector(".faq");
+//slider
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function showSlides(n) {
+
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+
+	if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+
+  slides[slideIndex-1].style.display = "block";
+
+	showPages();
+}
+</script>
 </body>
 </html>

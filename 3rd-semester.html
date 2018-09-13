@@ -12,7 +12,6 @@
 
 <div class="main-boxes">
 <h1 class="semester-title"> 3rd semester</h1>
-
     <div class="box-one-third box">
     <div class="item-one">
         <div class="numbers"> 01</div>
@@ -20,7 +19,9 @@
 	     <div class="more"> <a href="">+</a></div>
         </div>
 	    </div>
-
+			<div class="box-one-modal modal-screen hide">
+				<div class="modal-title"> <h2> ELECTIVES MODAL</h2></div>
+			</div>
 	<div class="box-two-third box">
     <div class="item-one">
         <div class="numbers"> 02</div>
@@ -28,28 +29,67 @@
 	    <div class="more"> <a href="">+</a></div>
         </div>
 	</div>
-
+	<div class="box-two-modal modal-screen hide">
+		<div class="modal-title"> <h2> EXCHANGE MODAL</h2></div>
+	</div>
 	<div class="box-three-third box">
-
         <div class="item-one">
         <div class="numbers"> 03</div>
 	   <div class="category-menu"> Exam</div>
 	    <div class="more"> <a href="">+</a></div>
         </div>
 	</div>
-
-
-
-
+	<div class="box-three-modal modal-screen hide">
+		<div class="modal-title"> <h2>EXAM MODAL</h2></div>
+	</div>
 </div>
+<script type="text/javascript">
+/*FIRST MODAL*/
+function openModalOne(){
 
+	document.querySelector(".box-one-modal").classList.remove("hide");
 
+	}
 
+function closeModalOne(){
 
+	document.querySelector(".box-one-modal").classList.add("hide");
 
+}
 
+document.querySelector(".box-one-modal").addEventListener("click", closeModalOne);
+document.querySelector(".box-one-third").addEventListener("click", openModalOne);
+/*SECOND MODAL*/
+function openModalOne(){
 
+	document.querySelector(".box-two-modal").classList.remove("hide");
 
-<script src="script.js"></script>
+	}
+
+function closeModalOne(){
+
+	document.querySelector(".box-two-modal").classList.add("hide");
+
+}
+
+document.querySelector(".box-two-modal").addEventListener("click", closeModalOne);
+document.querySelector(".box-two-third").addEventListener("click", openModalOne);
+/*THIRD MODAL*/
+function openModalOne(){
+
+	document.querySelector(".box-three-modal").classList.remove("hide");
+
+	}
+
+function closeModalOne(){
+
+	document.querySelector(".box-three-modal").classList.add("hide");
+
+}
+
+document.querySelector(".box-three-modal").addEventListener("click", closeModalOne);
+document.querySelector(".box-three-third").addEventListener("click", openModalOne);
+
+</script>
 </body>
 </html>
