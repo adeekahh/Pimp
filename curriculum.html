@@ -10,6 +10,22 @@
 
 <body>
 
+	<div class="preload-screen">
+		<h1 class="preload-text">Copenhagen School of Design and Technology<br>Multimedia Design and Communication <br>Curriculum</h1>
+	<div class="preload-logo">
+	<!--	<a href="www.kea.dk/en" class="kea-link"><img src="assets/kea_EN_logo_BLK.jpg" alt="kea logo"></a>
+	-->
+
+		</div>
+
+		<div class="preload-left">
+		</div>
+	<div class="preload-right">
+
+		</div>
+
+	</div>
+
 <div class="intro-page">
 	<h1 class="KEA">KEA MMD</h1>
 	<div class="line"></div>
@@ -117,8 +133,49 @@ function showSlides(n) {
 
   slides[slideIndex-1].style.display = "block";
 
-	showPages();
+
 }
+
+
+function movePreload(){
+	var preLoadLeft = document.querySelector(".preload-left");
+	var preLoadRight = document.querySelector(".preload-right");
+	var preLoadText = document.querySelector(".preload-text");
+
+	preLoadLeft.classList.add("totheleft");
+	preLoadRight.classList.add("totheright");
+	preLoadText.classList.add("totheleft");
+
+/*	preLoadLeft.style.display = "none";
+	preLoadRight.style.display = "none";
+	preLoadText.style.display = "none";*/
+}
+
+function PreloadTimeout(){
+
+	setTimeout(movePreload, 2000);
+}
+
+PreloadTimeout();
+
+function hidePreload(){
+	var preLoadLeft = document.querySelector(".preload-left");
+	var preLoadRight = document.querySelector(".preload-right");
+	var preLoadText = document.querySelector(".preload-text");
+
+	preLoadLeft.style.display = "none";
+	preLoadRight.style.display = "none";
+	preLoadText.style.display = "none";
+
+}
+
+function hidePreloadTimeout(){
+
+	setTimeout(hidePreload, 6000);
+}
+
+hidePreloadTimeout();
+
 </script>
 </body>
 </html>

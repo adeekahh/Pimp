@@ -20,7 +20,63 @@ a{text-decoration: none; color: white}
 
 }
 
+/*PRELOAD SCREEN*/
 
+.preload-text{
+
+
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left:25%;
+	top:45%;
+	color:white;
+	z-index: 20;
+
+}
+
+.preload-left{
+	width: 50vw;
+	background-color: #ea5045;
+	height: 100vh;
+	position: fixed;
+	z-index: 15;
+
+
+}
+
+.totheleft{
+	animation: preloadleft 4s normal;
+}
+
+@keyframes preloadleft{
+
+            to{
+                transform: translateX(-1500px);
+            }
+        }
+
+.preload-right{
+	width: 50vw;
+	background-color: #ea5045;
+	right: 0;
+	height: 100vh;
+	position: fixed;
+	z-index: 15;
+
+
+}
+
+.totheright{
+	animation: preloadright 4s normal;
+}
+
+@keyframes preloadright{
+
+            to{
+                transform: translateX(1500px);
+            }
+        }
 
 
 
@@ -309,6 +365,8 @@ animation: slide-down 1s normal;
 
   }
 
+
+
 	.slide-number{
 		text-align: center;
 		font-size: 4px !important;
@@ -362,6 +420,7 @@ animation: slide-down 1s normal;
      .main-boxes{
       display: grid;
       grid-template-columns: 33.3% 33.3% 33.3% ;
+
       grid-template-rows: auto;}
 
 
@@ -431,3 +490,4 @@ animation: slide-down 1s normal;
 	    font-size: 36px;
     margin: 1em 2em;
 }
+

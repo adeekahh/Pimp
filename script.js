@@ -134,9 +134,6 @@ document.querySelector(".box-six").addEventListener("click", openModalSix);
 
 
 
-
-
-
 /*SLIDESHOW
 var slideIndex = 1;
 showSlides(slideIndex);
