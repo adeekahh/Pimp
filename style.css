@@ -28,12 +28,28 @@ a{text-decoration: none; color: white}
 	position: fixed;
 	width: 100%;
 	height: 100%;
-	left:25%;
-	top:45%;
+	left:5%;
+	top:2%;
 	color:white;
 	z-index: 20;
 
 }
+
+.preload-bar{
+	position: fixed;
+	left:45%;
+	top:92%;
+	z-index: 20;
+}
+
+.preload-brice{
+	position: fixed;
+	width:50%;
+	left: 25%;
+	top:12%;
+	z-index: 16;
+}
+
 
 .preload-left{
 	width: 50vw;
@@ -85,7 +101,22 @@ a{text-decoration: none; color: white}
       color: white;
       margin-top: 15px;
       margin-left: 20px;
-      font-size: 18px
+      font-size: 18px;
+			width: 100%;
+			height: 100%;
+			left:5%;
+			top:2%;
+}
+
+.overview-title{
+	width: 100%;
+	text-align: center;
+	grid-column: 1/-1;
+	color: white;
+	font-size: 48px;
+	position: absolute;
+	top:20%;
+
 }
 .Curriculum{grid-row: 1;
             grid-column: 1;
@@ -107,7 +138,7 @@ a{text-decoration: none; color: white}
 
 .scroll{grid-row: 3;
         grid-column: 3;
-        margin-top: 40px;
+        margin-top: 200px;
         color: white;
 				animation: jump 1s alternate infinite;
 	}
@@ -349,6 +380,29 @@ animation: slide-down 1s normal;
          margin-left: 30px;
          margin-top: 200px;}
 
+	.slideshow-title{
+		font-size: 92px;
+	}
+
+
+
+	.preload-text{
+		font-size:1em;
+	}
+
+	.preload-brice{
+		width:80%;
+		left: 10%;
+		top:25%;
+
+	}
+
+	.preload-bar{
+		left: 32%;
+		top: 75%;
+	}
+
+
     .text-brice{grid-row: 1/2;
                  grid-column: 1;
                   width: 200%;
@@ -417,6 +471,26 @@ animation: slide-down 1s normal;
                     grid-row: 2;
                    margin-left: 70px;}
 
+
+			.preload-text{
+
+				font-size: 1.5em;
+			}
+
+			.preload-brice{
+
+				width: 80%;
+				left: 10%;
+				top:25%;
+			}
+
+			.preload-bar{
+				left: 35%;
+				top: 85%;
+			}
+
+
+
      .main-boxes{
       display: grid;
       grid-template-columns: 33.3% 33.3% 33.3% ;
@@ -479,6 +553,7 @@ animation: slide-down 1s normal;
 .modal-text{
 			max-width: 500px;
 	    margin: 2em 4.5em;
+	font-weight: 400;
 }
 
 .close-text{
