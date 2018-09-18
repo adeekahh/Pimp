@@ -1,3 +1,132 @@
+const panels = document.querySelectorAll('.panel');
+
+    function toggleOpen() {
+
+      this.classList.toggle('open');
+    }
+
+    function toggleActive(e) {
+      if (e.propertyName.includes('flex')) {
+        this.classList.toggle('open-active');
+      }
+    }
+
+    panels.forEach(panel => panel.addEventListener('click', toggleOpen));
+    panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
+
+
+
+var panel1 = document.querySelector(".panel1");
+var panel1Text = document.querySelector(".paneltext-1");
+var panel2 = document.querySelector(".panel2");
+var panel2Text = document.querySelector(".paneltext-2");
+var panel3 = document.querySelector(".panel3");
+var panel3Text = document.querySelector(".paneltext-3");
+var panel4 = document.querySelector(".panel4");
+var panel4Text = document.querySelector(".paneltext-4");
+var panel5 = document.querySelector(".panel5");
+var panel5Text = document.querySelector(".paneltext-5");
+var panel6 = document.querySelector(".panel6");
+var panel6Text = document.querySelector(".paneltext-6");
+
+
+		function hidePanelText(){
+
+		if(panel1.classList.contains("open")){
+
+			panel1Text.classList.add("hide");
+
+
+
+		}else{
+
+			panel1Text.classList.remove("hide");
+		}
+
+
+		}
+
+function hidePanelText2(){
+
+		if(panel2.classList.contains("open")){
+
+			panel2Text.classList.add("hide");
+
+
+
+		}else{
+
+			panel2Text.classList.remove("hide");
+		}
+
+
+		}
+
+function hidePanelText3(){
+
+		if(panel3.classList.contains("open")){
+
+			panel3Text.classList.add("hide");
+
+
+
+		}else{
+
+			panel3Text.classList.remove("hide");
+		}
+
+
+		}
+
+function hidePanelText4(){
+
+		if(panel4.classList.contains("open")){
+
+			panel4Text.classList.add("hide");
+
+
+
+		}else{
+
+			panel4Text.classList.remove("hide");
+		}
+
+
+		}
+
+
+function hidePanelText5(){
+
+		if(panel5.classList.contains("open")){
+
+			panel5Text.classList.add("hide");
+
+
+
+		}else{
+
+			panel5Text.classList.remove("hide");
+		}
+
+
+		}
+
+
+function hidePanelText6(){
+
+		if(panel6.classList.contains("open")){
+
+			panel6Text.classList.add("hide");
+
+
+
+		}else{
+
+			panel6Text.classList.remove("hide");
+		}
+
+
+		}
 /*SLIDESHOW
 //selectors
 //firstsemester
@@ -24,7 +153,7 @@ var FaqSlide = document.querySelector(".faq");
 
 
 /*FIRST MODAL*/
-function openModalOne(){
+/*function openModalOne(){
 
 	document.querySelector(".box-one-modal").classList.remove("hide");
 
@@ -39,7 +168,7 @@ function closeModalOne(){
 document.querySelector(".box-one-modal").addEventListener("click", closeModalOne);
 document.querySelector(".box-one").addEventListener("click", openModalOne);
 
-/*SECOND MODAL*/
+/*SECOND MODAL
 
 function openModalTwo(){
 
@@ -58,7 +187,7 @@ document.querySelector(".box-two").addEventListener("click", openModalTwo);
 
 
 
-/*THIRD MODAL*/
+/*THIRD MODAL
 
 function openModalThree(){
 
@@ -77,7 +206,7 @@ document.querySelector(".box-three").addEventListener("click", openModalThree);
 
 
 
-/*FORUTH MODAL*/
+/*FORUTH MODAL
 
 function openModalFour(){
 
@@ -95,8 +224,7 @@ document.querySelector(".box-four-modal").addEventListener("click", closeModalFo
 document.querySelector(".box-four").addEventListener("click", openModalFour);
 
 
-/*FIFTH MODAL*/
-
+/*FIFTH MODAL
 function openModalFive(){
 
 	document.querySelector(".box-five-modal").classList.remove("hide");
@@ -114,7 +242,7 @@ document.querySelector(".box-five").addEventListener("click", openModalFive);
 
 
 
-/*SIXTH MODAL*/
+/*SIXTH MODAL
 
 
 function openModalSix(){

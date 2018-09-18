@@ -10,42 +10,35 @@
 
 <body>
 
-<div class="main-boxes">
-
-	<a href="curriculum_in.html" class="mainpage-title">MMD Curriclum</a>
-<a href="curriculum_in.html#slideshow" class="semester-title">3rd semester</a>
-
-    <div class="box-one-third box">
-    <div class="item-one">
-        <div class="numbers"> 01</div>
-	    <div class="category-menu">Electives</div>
-	     <div class="more"> <a href="">+</a></div>
-        </div>
-	    </div>
-			<div class="box-one-modal modal-screen hide">
-				<div class="modal-title"> <h2> ELECTIVES MODAL</h2></div>
-			</div>
-	<div class="box-two-third box">
-    <div class="item-one">
-        <div class="numbers"> 02</div>
-	    <div class="category-menu">Exchange</div>
-	    <div class="more"> <a href="">+</a></div>
-        </div>
-	</div>
-	<div class="box-two-modal modal-screen hide">
-		<div class="modal-title"> <h2> EXCHANGE MODAL</h2></div>
-	</div>
-	<div class="box-three-third box">
-        <div class="item-one">
-        <div class="numbers"> 03</div>
-	   <div class="category-menu"> Exam</div>
-	    <div class="more"> <a href="">+</a></div>
-        </div>
-	</div>
-	<div class="box-three-modal modal-screen hide">
-		<div class="modal-title"> <h2>EXAM MODAL</h2></div>
-	</div>
+<a href="curriculum_in.html" class="page-navigation-arrow">&#10094;</a>
+<div class="page-navigation">
+<a href="curriculum_in.html" class="mainpage-title">MMD Curriclum</a>
+<a href="curriculum_in.html#slideshow" class="semester-title"><br>1st semester</a>
 </div>
+
+	<div class="panels">
+    <div class="panel panel1" onclick="hidePanelText();">
+     <div class="panel-box"><p class="numbers">1</p>
+	    <p class="category-menu">Elective</p>
+	    <p class="more-button">+</p>	</div>
+			<p class="panel-text paneltext-1 hide">Apply basic theories, methods and tools for managing simple multimedia productions of relevance to professional practices in the field. Plan and conduct user tests, including selection of the right user test for a given digital media production. Apply and document key processes in the design and development of digital media productions, and communicate the processes to stakeholders with professional insights. Apply basic theories, methods and tools to the design and development of user interfaces. Apply basic modelling and structuring methods in the development of digital user interfaces. Apply and assess basic technologies and development environments for the development of user interfaces, including methods and technologies for version controls.</p>
+    </div>
+    <div class="panel panel2" onclick="hidePanelText2();">
+     	<div class="panel-box"><p class="numbers">2</p>
+	    <p class="category-menu">Exchange</p>
+	    <p class="more-button">+</p>	</div>
+			<p class="panel-text paneltext-2 hide">Apply basic theories, methods and tools for managing simple multimedia productions of relevance to professional practices in the field. Plan and conduct user tests, including selection of the right user test for a given digital media production. Apply and document key processes in the design and development of digital media productions, and communicate the processes to stakeholders with professional insights. Apply basic theories, methods and tools to the design and development of user interfaces. Apply basic modelling and structuring methods in the development of digital user interfaces. Apply and assess basic technologies and development environments for the development of user interfaces, including methods and technologies for version controls.</p>
+    </div>
+    <div class="panel panel3" onclick="hidePanelText3();">
+      <div class="panel-box"><p class="numbers">3</p>
+	    <p class="category-menu">Exam</p>
+	    <p class="more-button">+</p>	</div>
+			<p class="panel-text paneltext-3 hide">Apply basic theories, methods and tools for managing simple multimedia productions of relevance to professional practices in the field. Plan and conduct user tests, including selection of the right user test for a given digital media production. Apply and document key processes in the design and development of digital media productions, and communicate the processes to stakeholders with professional insights. Apply basic theories, methods and tools to the design and development of user interfaces. Apply basic modelling and structuring methods in the development of digital user interfaces. Apply and assess basic technologies and development environments for the development of user interfaces, including methods and technologies for version controls.</p>
+    </div>
+
+  </div>
+
+	<!--
 <script type="text/javascript">
 /*FIRST MODAL*/
 function openModalOne(){
@@ -94,5 +87,8 @@ document.querySelector(".box-three-modal").addEventListener("click", closeModalO
 document.querySelector(".box-three-third").addEventListener("click", openModalOne);
 
 </script>
+
+-->
+	<script src="script.js"></script>
 </body>
 </html>

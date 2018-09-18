@@ -1,0 +1,59 @@
+{
+    "curriculum": [
+        {
+            "uiskills1": "Apply basic theories, methods and tools for managing simple multimedia productions of relevance to professional practices in the field. Plan and conduct user tests, including selection of the right user test for a given digital media production. Apply and document key processes in the design and development of digital media productions, and communicate the processes to stakeholders with professional insights. Apply basic theories, methods and tools to the design and development of user interfaces. Apply basic modelling and structuring methods in the development of digital user interfaces. Apply and assess basic technologies and development environments for the development of user interfaces, including methods and technologies for version controls. ",
+
+            "uiknowledge1": "Practice-oriented development methods.Understand the methods applied by the profession connected with user testing. Basic principles of composition and layout related to digital media productions. Processes of practice-oriented design and documentation forms used Digital exchange formats. Basic method for modelling, structuring and developing digital user interfaces. Key technologies applied as the relations client-server and their impact on the development of user interfaces.",
+
+            "uicompetencies1": "Participate in interdisciplinary work processes in connection with the design and development of digital user interfaces. Under supervision, acquire basic knowledge, skills and competencies within the design and development of digital user interfaces.",
+
+            "contentskills1": "Collect and apply empirical data about users and situations of use. Plan and evaluate a digital content production based on a given brief. Produce basic-level digital content based on user understanding and based on a given strategic brief. Apply and assess technologies for the presentation and production of digital content. Communicate the development process for digital content production to stakeholders with professional insights.",
+
+            "contentknowledge1": "A practice-oriented understanding of intellectual property rights and licensing methods in digital media production. Multimedia designer’s role in the value chain in digital productions. Digital media and digital media platforms used by the profession. Key forms of expression and content in digital media. Key technologies applied by the profession in connection with the production of digital content. Basic methods and theories regarding user understanding within digital content production.",
+
+            "contentcompetencies1": "Participate in interdisciplinary work processes in connection with the design and development of digital content. Under supervision, acquire basic knowledge, skills and competencies within the design and development of digital content.",
+
+            "digitalui1": "Design and programming of digital UI covers basic principles for the design and programming of digital solutions. This course will focus on the design and the structure of user interfaces, that includes user-centred methods for testing of design and solutions.",
+
+            "digitalcontent1": "In the Design and programming of digital content course you will learn to produce simple digital content solutions for different media platforms. It will focus on user understanded design solutions.The solutions are designed, programmed and produced out from the knowledge of making a content and business strategy / models.",
+
+            "exam1": "The 1st. Semester exam is an individual exam and consist of two parts.The first part is a hand-in of a portfolio website, that shows what the student have been doing during the 1st. Semester. The second part of the exam is the oral exam: To the oral exam the student will have prepared a 5 minutes presentation that covers the core areas from the semester. The course design and programming of digital UI 1 is equivalent to 15 ECTS.The course design and programming of digital content 1 equivalent to 15 ECTS.So in total is the entire 1st. Semester equivalent to 30 ECTS. "
+        },
+        {
+            "uiskills2": "Plan and assess project management in team-based digital media productions. Argue for which key theories, tools and methods used for the digital user interfaces, as well as argue for the solutions of digital user interfaces. Being able to apply and document key design processes in complex digital media production, and communicate them to stakeholders from the digital media industry. Communicate and apply a user-centred method in connection with a digital productions. ",
+            "uiknowledge2": "Understand the company’s external environment, including its stakeholders and the company’s resource base. Optimising user experience. Tools related to project management and estimation of digital productions. Relevant theories, tools and methods for the design and programming of digital user experience to create more complex digital user interfaces.",
+            "uicompetencies2":"Identify relevant theories, methods and tools of the complex digital media productions. Acquire new knowledge and skills within the programming and design of complex user-centred user interfaces.",
+            "contentskills2":" Be able to apply key tools to optimise digital media production as well as the production of digital user experiences. Plan and assess project management in user-centred content production. Communicate and justify digital solutions of content production to stakeholders from digital media industry. Apply and combine forms of expression for the design and production of digital user experiences on selected media platforms. Assess and process given visual material to ensure consistency in a digital media production. ",
+            "contentknowledge2": "Identify the tools and data applied in the optimised digital media production as well as in the complex digital content production. Methods and theories used for the presentation of the data. Understand the relationship between the business models used and complex digital content production. Key methods and theories used for the digital user experience. ",
+            "contentcompetencies2": "Identify relevant theories, methods and tools for the production of complex digital content in teams. Acquire new knowledge, skills and competencies within the design and production of complex digital content.",
+            "digitalui2": "In Design and programming of digital UI 2, you will learn to make more complex digital solutions, there will be focus on user interfaces as well as testing the user experience of the digital solutions.",
+            "digitalcontent2": "In Design and programming of digital content 2 course, will you as a student learn to create more complex digital content solutions for multiple types of media. There will be a focus on how to present the content as well as communicate part of the production of digital content.",
+            "exam2": "The course design and programming of digital UI 2 is equivalent to 15 ECTS.The course design and programming of digital content 2 equivalent to 15 ECTS.So in total is the entire 2nd. Semester equivalent to 30 ECTS. ",
+
+        },
+
+        {
+            "electives": "The 3rd. Semester is different from the 1st. And 2nd. Semester. In the 3rd Semester you can choose between 2-3 electives. The electives varies from doing more front-end development and content designing.",
+
+            "exchange": "In the 3rd. Semester you will get the opportunity to take a semester abroad, either by choosing one KEA is partnering up with or finding a university by yourself. If you choose an exchange agreement from one of the partner universities you will not have to pay any school fee other than the living cost. ",
+            "exam3": "",
+        },
+
+        {
+            "internshipskills":"Depending on where you as a multimedia design student will have your internship you will have acquired the skills to: Apply versatile technical and analytical working methods of relevance to employment within the profession. Be able to asses practice-oriented issues and problems, and present possible solutions.Communicate practice-oriented issues and come up with solution proposals.",
+            "internshipknowledge": "During the internship you will gain the knowledge and a understanding of the requirements and expectations that lays within companies with regard to the multimedia designer’s knowledge, skills and attitudes towards the work. The knowledge of practice-related theories, methods and tools used by the profession and within the field.",
+
+            "internshipscompetencies": "Engage in development-oriented practical and professional activities of relevance to the profession.Acquire new knowledge, skills and competencies of relevance to the profession.Undertake the structuring and planning of day-to-day tasks within the profession.Participate in disciplinary and interdisciplinary cooperation based on a professional approach.",
+
+            "internship":"As a student In the multimedia design course you will start the 4th semester with an internship of where you would like to go. ",
+
+            "internshipexam": "The internship is concluded with a single exam and is equivalent to 15 ECTS points. ",
+
+            "finalproject":"In the final exam project you as a student must document your understanding of practice and key applied theories and methods in relation to a practice-oriented issue based on a specific assignment within the area of the programme.You’ll make a problem statement,  possibly in cooperation with a public or private company. The problem statement must be central to the programme and the profession. Alternatively, the final exam project can be based on the student starting up his or her own business. The educational institution must approve the problem statement.The final exam project consist of a report and a product. The product must be a digital media production. The final exam project must not exceed 30 standard pages for one student + 10 standard pages for each additional group member. Front page, table of contents, bibliography and appendices are not included in the maximum number of pages. Appendices will not be assessed.A standard page is 2,400 characters with spaces and footnotes.",
+
+            "finalexam": "The exam project concludes the programme in the last semester when all other exams have been passed.",
+
+        }
+
+    ]
+}
